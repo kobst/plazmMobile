@@ -1,0 +1,50 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-plazmmobile-dev-112412-authRole",
+      "UnauthRoleArn": "arn:aws:iam::547054413317:role/amplify-plazmmobile-dev-112412-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::547054413317:role/amplify-plazmmobile-dev-112412-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-plazmmobile-dev-112412-deployment",
+      "UnauthRoleName": "amplify-plazmmobile-dev-112412-unauthRole",
+      "StackName": "amplify-plazmmobile-dev-112412",
+      "StackId": "arn:aws:cloudformation:us-east-1:547054413317:stack/amplify-plazmmobile-dev-112412/6eb22490-c319-11ec-87f3-0a515dd5b1d5",
+      "AmplifyAppId": "dl80zxwjm3zo3"
+    }
+  },
+  "auth": {
+    "plazmmobile5762b47a": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "us-east-1_W5dpJ0PhM",
+        "UserPoolName": "metagon99fcca73_userpool_99fcca73-dev",
+        "AppClientID": "6prpo3im9abbbd4ka93o4gg5ur",
+        "AppClientSecret": "8m8fuc1fblabt24ktfrl5astk0okrenjfmalqsc407f7plinbjo",
+        "AppClientIDWeb": "7v7acardjlsrksegaim52bbqv4",
+        "HostedUIDomain": "metagon-authentication"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  }
+}
